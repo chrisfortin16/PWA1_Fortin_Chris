@@ -131,7 +131,6 @@ console.log('------ arrays ----------');
      - in javascript, arrays are constructed by the brackets [ and ]
 
  */
-   var myArr = ['bond', 007, function(){}, true];
 
  /*
     - arrays can hold any value type, separated by comma
@@ -151,7 +150,7 @@ console.log('------ arrays ----------');
     2.  console.log the sum of all the numbers in an array
 
  ********************************************/
-var array=[10], [50], [100], [200];
+var array=["Chris", 802, "Vermont", true];
 console.log(array[0] + array[1] + array[2] +array[3]);
 
 
@@ -170,7 +169,8 @@ console.log(array[0] + array[1] + array[2] +array[3]);
     3. output array items using string concatenation
 
  ********************************************/
-
+var myarray=["baseball", "football", "basketball"];
+console.log("I like playing "+myarray[1]+" more then I like playing "+myarray[0]+" or "+myarray[2]);
 
  // conditionals: (definition, indexing, math, if, if-else, if-else if, ternary)
 console.log('------ conditionals ----------');
@@ -301,7 +301,14 @@ console.log('------ conditionals ----------');
  GOAL
     1. learn if - else
  ********************************************/
-
+var weather = "Cloudy";
+if (weather = sunny) {
+    var bobsMood = "Happy";
+    console.log(bobsMood);
+}else{
+    var bobsMood = "Sad";
+    console.log(bobsMood);
+};
 
 
 
