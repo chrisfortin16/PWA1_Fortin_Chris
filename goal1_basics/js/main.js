@@ -327,8 +327,38 @@ if (weather = sunny) {
         - else bobsMood = "sad"
     3.  console.log the results after each conditional
  ********************************************/
+var weather = "Cloudy";
 
 
+var waves = 10;
+
+if (weather = sunny) {
+    var bobsMood = "Happy";
+    console.log(bobsMood);
+}else{
+    var bobsMood = "Sad";
+    console.log(bobsMood);
+};
+
+if((weather === "sunny" ) && (waves == 10)){
+    bobsMood = "Pumped";
+    console.log(bobsMood);
+}else if ((weather === "sunny" ) && (waves >=5)){
+    bobsMood = "mellow";
+    console.log(bobsMood);
+}else if ((weather === "sunny" ) && waves <=4){
+    bobsMood = "bummed";
+    console.log(bobsMood);
+}else if ((weather === "overcast") && waves == 10 || waves>=7) {
+    bobsMood = "jackedUp";
+    console.log("bobsMood");
+}else if ((weather === "overcast") && waves == 6 || waves>=3) {
+    bobsMood = "totally Bummed";
+    console.log(bobsMood);
+}else if ((weather === "overcast") && waves <=2) {
+    bobsMood = "Not Happy";
+    console.log(bobsMood);
+}
 
 
 /*
@@ -364,7 +394,12 @@ if (weather = sunny) {
         - else student1 = 'sad'
     4.  console.log the results
  ********************************************/
-
+var student1 = "happy" if(weather = "sunny")
+var temp = 60;
+var student1;
+if (weather = "sunny"){
+    student1 = "happy";
+}else ((weather != "sunny") && temp >=80)
 
 
 // Functions: (definition, whitespace, invocation, arguments, returns)
