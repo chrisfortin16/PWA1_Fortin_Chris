@@ -1,6 +1,6 @@
 /*
 	PWA1 Goal 3
-	NAME:
+	NAME: Chris Fortin
 	JavaScript Debugging & Scope
 */
 
@@ -60,15 +60,15 @@
  
 	//ACTIVITY 1 - DEBUG!:
 	
-	var name = james, course = 'PWA1, month = 3;
-	console.log ("name: ", name + " / course: ", coures + " / month: ", month)
+	var name = "james", course = 'PWA1', month = 3; // added quotes to the names 1.
+	console.log ("name: ", name + " / course: ", course + " / month: ", month) // Spelling error 2.
 
     -----------------------------------------------
 
     //ACTIVITY 2 - DEBUG!:
 	//string w/ escape charaters and mixed single/double quotes
-	var phrase = 'he's in ' + ' "PWA1' ";
-	console.log("phase 4: ", phr@se);
+	var phrase = "he's in " + " 'PWA1' "; // Quote error 3.
+	console.log("phase 4: ", phrase); // Spelling error 4.
 
     -----------------------------------------------
 
@@ -77,18 +77,18 @@
 	//nested conditional statement
 	if (a === a){    //1st IF statement
 		//execute this block of code if a is equal to a
-		
+
 		if (b === b){  //nested IF statement : 2nd IF statement
    			//execute this block of code if b is equal to b
    			console.log("In Nested if-else / b === b: True");
 		}else{       //nested ELSE statement
 			//execute block of code if the matching “IF” statement returns false
-		};
+		}; // Unnecessary Semicolon 5.
 
-	}else
+	}else{ //Missing Squiggley bracet
 		//execute this block of code if the 1st “IF” statement returns false
-		console.log("nested conditional: 1st IF returned false);
-	};
+		console.log("nested conditional: 1st IF returned false"); //Missing Quote 6.
+	}; // Unnecessary Semicolon 7.
 
     -----------------------------------------------
 
@@ -97,7 +97,7 @@
 	var value1 = 'Sunny';
 	var value2 = 10;
 	
-	var mood = function(weather, waves)
+	var mood = function(weather, waves){ //Missing opening squggily bracet 8.
 
 		if (weather = "Sunny"){
 			if (waves === 10){
@@ -121,7 +121,7 @@
 			Mood = 'sad'
 		};
 
-		return Moood;
+		return Mood; // One to many o's 9.
 	};
 
 	var moodType = mood(value1, value2);
