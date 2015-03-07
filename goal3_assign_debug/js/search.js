@@ -114,6 +114,6 @@
         // return false is needed for most events - this will be reviewed in upcoming course material
         // THE LINE DIRECTLY BELOW IS CORRECT
 		return false;
-	; // Unnecessary semicolon 11. 
+	; // Unnecessary semicolon 11.
 
 })();
