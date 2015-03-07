@@ -3,35 +3,57 @@
  * Chris Fortin
  */
 
-var num1;
-var num2;
-var num3;
+var width;
+var height;
 
-num1 = prompt("Please enter a number");
-if((num1 === "") || isNaN(num1)){
-    num1 = prompt("You did not enter a valid Number, please try again.");
-}else{
-    console.log("The number you chose for num1 is "+num1);
+width = prompt("Enter a number");
+height = prompt("Enter a second number");
+
+var total = calcArea(width,height); //Call function pass arguments
+calcArea(40,50);
+function calcArea(w, h){ //create a basic function
+                        // catches width and height in the parameters (w,h)
+var area = w*h;
+    console.log(area);
+    return(area);
 }
-num2 = prompt("Please enter a different number");
-if(num2 === num1) {
-    num2 = prompt("You already entered this number Please try again");
-}else if(num2 === ""){
-    num2 = prompt("You did not put anything in the box, please try again");
-}else if(isNaN(num2)){
-    num2 = prompt("You did not put a Number, Please try again");
-}else{
-    console.log("The second number you chose for num2 is "+num2);
+
+
+var min=100;
+var max=200;
+
+
+function randomizer(mn, mx){
+
+    var randomNumber = Math.round(Math.random()*(mx-mn)+mn);
+    return randomNumber;
 }
-num3 = prompt("Please enter a different number");
-if(num3 === num2) {
-    num3 = prompt("You already entered this number Please try again");
-}else if(num3 === ""){
-    num3 = prompt("You did not put anything in the box, please try again");
-}else if(isNaN(num3)){
-    num3 = prompt("You did not put a Number, Please try again");
-}else{
-    console.log("The second number you chose for num2 is "+num3);
+
+var rarNum = randomizer(min,max);
+
+console.log(rarNum);
+
+
+//ANNONOMYS FUNCTION
+
+var width = 10;
+var height = 20;
+
+var areaTotal = function(w,h){
+    var area = w*h;
+    console.log(area);
+    return area;
 }
+
+var total = areaTotal(width,height);
+
+
+
+
+
+
+
+
+
 
 
