@@ -50,9 +50,12 @@ OPTIONAL!!
     console.log("1. avg of an array of numbers");
     var avgNumbers = function(arr){
 
-
-
+    for (i=0; arr.length >=5; i++ ){
+        //do some code
+    }
+    return;
     };
+    function(avgNumbers)
 
     console.log('avg number = ', avgNumbers([1,2,3,4,5]));
 
