@@ -57,7 +57,7 @@ OPTIONAL!!
         }
     };
    return avgNumbers();
-    console.log('avg number = ', avgNumbers([1,2,3,4,5]));
+    console.log('avg number = ' +avgNumbers([1,2,3,4,5]));
 
     //--------------------------------------------------------
     console.log("2. concat first and last name");
