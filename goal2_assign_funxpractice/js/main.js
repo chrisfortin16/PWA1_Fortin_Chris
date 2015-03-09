@@ -51,7 +51,7 @@ OPTIONAL!!
     var avgNumbers = function(arr){
         ;
 
-        for (i=0; arr.length >=5; i++ ){
+        for (i=0; multiply.length >=5; i++ ){
             var multiply = avgNumbers([0],[1],[2],[3],[4],[5],[6]);
             return ;
         }
@@ -63,9 +63,9 @@ OPTIONAL!!
     console.log("2. concat first and last name");
 
     function myFunction(firstname, lastname){
-        return firstname + lastame
+        return fn + ln;
     }
-        myFunction("firstname")("lastname");
+       fullName = myFunction();
 
     console.log(fullName('James', 'Bond'));
 
