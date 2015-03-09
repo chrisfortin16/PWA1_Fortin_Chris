@@ -56,8 +56,7 @@ OPTIONAL!!
             return ;
         }
     };
-    function(multiply);
-
+   return avgNumbers();
     console.log('avg number = ', avgNumbers([1,2,3,4,5]));
 
     //--------------------------------------------------------
