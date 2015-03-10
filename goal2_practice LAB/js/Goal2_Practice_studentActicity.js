@@ -121,8 +121,14 @@ switch (age){
 ********************************************/
 
 
+var myArry = [Superman, Batman, Woverine, Iceman];
+    for (myArry = 0; myArry>=3; myArry++){
+        console.log(myArry);
+    }
+    for (myArry = 0; myArry>=4; myArry++){
+        console.log(myArry);
+    }
 
-//code goes here
 
 
 /*******************************************
