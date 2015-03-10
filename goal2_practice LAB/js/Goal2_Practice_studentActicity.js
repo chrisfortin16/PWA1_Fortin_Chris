@@ -11,7 +11,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 
 
-console.log(str1.charAt(7));
+console.log(str1.charAt(7,15));
 
 
 /*******************************************
