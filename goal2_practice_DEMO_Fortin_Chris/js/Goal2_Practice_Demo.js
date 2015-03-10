@@ -157,7 +157,7 @@ var str1 = "hello";
 console.log(typeof str1);
 
 console.log(typeof false);
-console(typeof function(){});
+console.log(typeof function(){});
 
 console.log(typeof obj1);
 console.log(typeof [1,2,3,4,5]);
