@@ -127,11 +127,14 @@ var myArry = [
             'Woverine',
             'Iceman'
             ];
-    for (i = 0; i < myArry.length; i++){
+
+for (i = 0; i < myArry.length; i++){
         console.log(myArry);
     }
 
-
+for (var i = 0, max = myArry.length; i<max; i++){
+    console.log(myArry);
+}
 
 /*******************************************
     STUDENT ACTIVITY 8: (More Practice):
