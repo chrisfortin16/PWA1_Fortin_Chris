@@ -21,7 +21,7 @@ console.log(str2.indexOf("m"));
 
 // Use lastIndexOf() to console.log the last 'a' in str1.
 
-console.log(str3.lastIndexOf('a'));
+console.log(str1.lastIndexOf('a'));
 
 // Use length to console.log the length in str1.
 

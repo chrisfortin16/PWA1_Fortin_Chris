@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html" afterPath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js" afterPath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js" />
     </list>
     <ignored path="PWA1_Fortin_Chris.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="Goal2_Practice_Demo.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.5034965" vertical-offset="120" max-vertical-offset="5790">
-              <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.5874126" vertical-offset="120" max-vertical-offset="5790">
+              <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -431,8 +431,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5034965" vertical-offset="120" max-vertical-offset="5790">
-          <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.5874126" vertical-offset="120" max-vertical-offset="5790">
+          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
           <folding />
         </state>
       </provider>
