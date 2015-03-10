@@ -106,7 +106,7 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
 
-console.log(arr2).indexOf('c');
+console.log(arr2.indexOf('c'));
 
 
 // join()
@@ -119,33 +119,45 @@ console.log(arr2.join(','));
 // Removes the last element from an array and returns that element
 // shift() removes the first element from an array.
 
+var element = arr1.pop();
+console.log(element);
 
-
+var element2 = arr1.shift();
+console.log(element2);
 
 // push()
 // Adds one or more elements to the end of an array and returns the new
 //   length of the array
 // unshift() - Adds one or more elements to the front of an array.
 
+arr2.push("f");
+console.log(arr2);
 
-
+arr2.unshift("abc");
+console.log(arr2);
 
 // reverse()
 // Reverses the order of the elements of an array
 
-
+console.log(arr2.reverse());
 
 
 // splice()
 // Adds and/or removes elements from an array.
 
-
-
+console.log(arr1.splice(4,2));
+console.log(arr1);
 
 // forEach()
 // Calls a function for each element in the array.
 
+arr1.forEach(function(element,index,array){
 
+	console.log('element', element);
+	console.log('index', index);
+	console.log('array', array);
+
+});
 
 
 
@@ -179,11 +191,6 @@ if( typeof myString === 'undefined'){
 	console.log("myString is: "+myString);
 }
 
-
-
-
-
-
 	
 /*
 	===============================================
@@ -207,15 +214,19 @@ if( typeof myString === 'undefined'){
 
 */
 
+var fruit = "mystery item";
 
-
-
-
-
-
-
-
-
+switch(fruit) {
+	case "oranges":
+		console.log("I have oranges");
+		break;
+	case "apples":
+		console.log("I have apples");
+		break;
+	default:
+		console.log("sorry we are out of " + fruit);
+		break;
+};
 
 
 /*
@@ -280,7 +291,15 @@ console.log('------ MORE Functions ----------');
 */
 console.log('------ While / Loop ----------');
 
-
+	var numBeers = 10;
+	while(numBeers > 0){
+		console.log(numBeers+" bottles of beer on the wall "+numBeers+" bottle's of beer. Take one down, pass it around");
+		numBeers--;
+	}
+var name = prompt("What is your name?");
+while (name == ""){
+	name = prompt("Please enter your name.");
+}
 
 
 
@@ -309,7 +328,14 @@ console.log('------ While / Loop ----------');
 
 console.log('------For Loop ----------');
 
+for(var beers = 10; beers > 0; beers--){
+	console.log(beers + " bottles of beer on the wall.");
+}
 
+var i;
+for (i=0; i=5; i++){
+	console.log("Var i ="+i);
+}
 
 
 
@@ -328,7 +354,11 @@ console.log('------For Loop ----------');
 	*/	
 
 	
-	
+	var hello = 'well hello there, my name is chris';
+	console.log(hello.length);
+
+	var myNums = [1,2,3,4,5];
+	console.log("length: ", myNums.length);
 	
 	
 	
@@ -352,7 +382,9 @@ console.log('------For Loop ----------');
 			save the array length in a variable, inside the first statement
 	*/
 
-	
+	for (var x=0; x<myNums.length; x++){
+		console.log("length in the for loops: ", myNums[x]);
+	}
 	
 	
 	
