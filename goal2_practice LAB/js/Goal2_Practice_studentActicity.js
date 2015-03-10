@@ -158,7 +158,7 @@ var myArry = [
 console.log(name.toLowerCase());
 console.log(name.toUpperCase());
 console.log(name.charAt(3));
-console.log(name.indexOf(10));
+console.log(name.indexOf(9));
 console.log(name.charAt(10, 14));
 var nameArray = ["chris", "fortin", "rocks", "so much"];
 console.log(nameArray[3]);
