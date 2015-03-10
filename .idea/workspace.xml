@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="" />
+    <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html" afterPath="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html" />
+    </list>
     <ignored path="PWA1_Fortin_Chris.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,8 +29,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="255">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+              <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -64,6 +66,7 @@
         <option value="$PROJECT_DIR$/goal3_bug_scope/js/main.js" />
         <option value="$PROJECT_DIR$/goal2_assign_funxpractice/index.html" />
         <option value="$PROJECT_DIR$/goal2_assign_funxpractice/js/main.js" />
+        <option value="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html" />
         <option value="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js" />
       </list>
     </option>
@@ -410,18 +413,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="715">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/goal2_assign_funxpractice/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2170767" vertical-offset="0" max-vertical-offset="691">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.375" vertical-offset="0" max-vertical-offset="270">
+          <caret line="7" column="20" selection-start-line="7" selection-start-column="20" selection-end-line="7" selection-end-column="20" />
           <folding />
         </state>
       </provider>
