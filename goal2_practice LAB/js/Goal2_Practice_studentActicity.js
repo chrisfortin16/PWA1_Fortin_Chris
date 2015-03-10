@@ -121,11 +121,16 @@ switch (age){
 ********************************************/
 
 
-var myArry = [Superman, Batman, Woverine, Iceman];
-    for (myArry = 0; myArry>=3; myArry++){
+var myArry = [
+            'Superman',
+            'Batman',
+            'Woverine',
+            'Iceman'
+            ];
+    for (i = 0; i<=3; i++){
         console.log(myArry);
     }
-    for (myArry = 0; myArry>=4; myArry++){
+    for (i = 0; max-myArry.length; i++){
         console.log(myArry);
     }
 
@@ -153,5 +158,8 @@ var myArry = [Superman, Batman, Woverine, Iceman];
 
     var name = 'This is a nice change of pace';
 
-//code goes here
+console.log(name.toLowerCase());
+console.log(name.toUpperCase());
+console.log(name.charAt(3));
+console.log(name.index(10));
 
