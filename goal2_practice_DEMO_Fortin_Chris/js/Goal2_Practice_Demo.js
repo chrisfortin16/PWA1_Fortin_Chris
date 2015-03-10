@@ -333,7 +333,7 @@ for(var beers = 10; beers > 0; beers--){
 }
 
 var i;
-for (i=0; i=5; i++){
+for (i=0; i<5; i++){
 	console.log("Var i ="+i);
 }
 
