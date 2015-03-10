@@ -35,7 +35,8 @@ STUDENT ACTIVITY 3:
 ********************************************/
 
 
-//code goes here
+console.log(str1.toLowerCase);
+console.log(str1.toUpperCase());
 
 
 
@@ -49,7 +50,10 @@ STUDENT ACTIVITY 4:
 var num = 4567896;
 var dec = 33.123456;
 
-//code goes here
+
+console.log(dec.toFixed(2));
+console.log(num.toString(""));
+
 
 
 
