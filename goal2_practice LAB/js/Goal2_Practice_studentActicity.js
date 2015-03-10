@@ -165,7 +165,7 @@ console.log(name.charAt(10, 14));
 var nameArray = ["chris", "fortin", "rocks", "so much"];
 console.log(nameArray[3]);
 console.log(nameArray[0]+"|"+nameArray[1]+"|"+nameArray[2]+"|"+nameArray[3]);
-console.log(name.reverse());
+console.log(nameArray.reverse());
 console.log(name.pop(0));
 console.log(name.push("NEW VALUE"));
 console.log(name.pop(4));
