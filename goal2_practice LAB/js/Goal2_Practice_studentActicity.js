@@ -35,7 +35,7 @@ STUDENT ACTIVITY 3:
 ********************************************/
 
 
-console.log(str1.toLowerCase);
+console.log(str1.toLowerCase());
 console.log(str1.toUpperCase());
 
 
