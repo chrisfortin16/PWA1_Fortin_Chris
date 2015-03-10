@@ -11,7 +11,7 @@ var abc = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz";
 
 
 
-console.log(str1.charAt(7,15));
+console.log(str1.concat(7,11));
 
 
 /*******************************************
@@ -22,7 +22,7 @@ STUDENT ACTIVITY 2:
 ********************************************/
 
 
-console.log(str2.substring(6));
+console.log(str2.substring(0,10));
 
 
 
