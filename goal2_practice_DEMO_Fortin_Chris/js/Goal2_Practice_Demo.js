@@ -51,7 +51,7 @@ console.log(num.toExponential(2));
 
 // Use toPrecision() console.log dec as four numbers.
 
-
+console.log(dec.toPrecision(6));
 
 
 /*
@@ -76,7 +76,14 @@ console.log(num.toExponential(2));
 console.log('------ MORE Booleans ----------');
 
 	
-	
+	var x = 9 * 3;
+	console.log(x);
+
+	if(x){
+		console.log("It's true, the value is", x);
+	}else{
+		console.log("It's false, the value is", x);
+	}
 	
 	
 	
@@ -99,13 +106,13 @@ var arr3 = ['apple', 'orange', 50393, 7.324];
 //Returns the first (least) index of an element within the array equal
 //to the specified value, or -1 if none is found.
 
-
+console.log(arr2).indexOf('c');
 
 
 // join()
 // Joins all elements of an array into a string.
 
-
+console.log(arr2.join(','));
 
 
 // pop()
