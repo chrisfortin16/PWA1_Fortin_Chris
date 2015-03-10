@@ -32,6 +32,8 @@ console.log(str1.length);
 
 console.log(abc.split(""));
 
+var test = abc.split("");
+console.log([2]);
 /*
 	===============================================
 	MORE:  Numbers
@@ -45,7 +47,7 @@ var dec = 33.123456;
 
 // Use toExponential() console.log num in exponential notation with two decimals.
 
-
+console.log(num.toExponential(2));
 
 // Use toPrecision() console.log dec as four numbers.
 
