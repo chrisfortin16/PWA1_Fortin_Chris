@@ -79,7 +79,8 @@ console.log(num.toString());
  
 
 
-//code goes here
+var combined = firstQtr[0,1,2]+secondQtr[0,1,2];
+console.log(combined);
 
 
 
