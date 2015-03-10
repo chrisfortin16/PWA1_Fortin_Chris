@@ -78,10 +78,9 @@ console.log(num.toString());
     var secondHalfYr = ["Jul", "Aug", "Sept", "Oct", "Nov", "Dec"];
  
 
-
-var combined = firstQtr[0,1,2]+secondQtr[0,1,2];
-console.log(combined);
-
+var combine = firstQtr.concat(secondQtr);
+var newCombine = combine.concat(secondHalfYr);
+console.log(newCombine);
 
 
 
