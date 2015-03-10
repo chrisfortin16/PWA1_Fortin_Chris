@@ -162,4 +162,11 @@ console.log(name.toLowerCase());
 console.log(name.toUpperCase());
 console.log(name.charAt(3));
 console.log(name.index(10));
-
+console.log(name.charAt(10, 14));
+var nameArray = ["chris", "fortin", "rocks", "so much"];
+console.log(nameArray[3]);
+console.log(nameArray+"|");
+console.log(name.reverse());
+console.log(name.pop(0));
+console.log(name.push("NEW VALUE"));
+console.log(name.pop(4));

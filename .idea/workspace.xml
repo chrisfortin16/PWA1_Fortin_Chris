@@ -39,8 +39,8 @@
       <file leaf-file-name="Goal2_Practice_studentActicity.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal2_practice LAB/js/Goal2_Practice_studentActicity.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.37062937" vertical-offset="1790" max-vertical-offset="2565">
-              <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+            <state vertical-scroll-proportion="1.3146853" vertical-offset="1625" max-vertical-offset="2655">
+              <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
               <folding />
             </state>
           </provider>
@@ -49,7 +49,7 @@
       <file leaf-file-name="Goal2_Practice_Demo.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="22.377777" vertical-offset="4577" max-vertical-offset="6510">
+            <state vertical-scroll-proportion="42.444443" vertical-offset="5480" max-vertical-offset="6510">
               <caret line="238" column="62" selection-start-line="238" selection-start-column="57" selection-end-line="238" selection-end-column="62" />
               <folding />
             </state>
@@ -451,7 +451,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="22.377777" vertical-offset="4577" max-vertical-offset="6510">
+        <state vertical-scroll-proportion="42.444443" vertical-offset="5480" max-vertical-offset="6510">
           <caret line="238" column="62" selection-start-line="238" selection-start-column="57" selection-end-line="238" selection-end-column="62" />
           <folding />
         </state>
@@ -459,8 +459,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal2_practice LAB/js/Goal2_Practice_studentActicity.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37062937" vertical-offset="1790" max-vertical-offset="2565">
-          <caret line="137" column="0" selection-start-line="137" selection-start-column="0" selection-end-line="137" selection-end-column="0" />
+        <state vertical-scroll-proportion="1.3146853" vertical-offset="1625" max-vertical-offset="2655">
+          <caret line="171" column="25" selection-start-line="171" selection-start-column="25" selection-end-line="171" selection-end-column="25" />
           <folding />
         </state>
       </provider>
