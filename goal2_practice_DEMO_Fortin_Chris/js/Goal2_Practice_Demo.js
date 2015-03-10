@@ -398,6 +398,13 @@ for (i=0; i<5; i++){
 	*/
 
 
+for (var x=0; x<myNums.length; x++){
+	if(x===3){
+		console.log("Testing the break and it broke!");
+		break;
+	}
+	console.log("length in the for loops: ", myNums[x]);
+}
 
 
 
