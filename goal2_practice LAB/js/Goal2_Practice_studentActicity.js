@@ -93,11 +93,18 @@ console.log(newCombine);
 			if age 18 then console.log "adult"
 			if no age then console.log "No answer"
 ********************************************/
-
-
-
-
-//code goes here
+var age = 10;
+switch (age){
+    case 13:
+        console.log("Child");
+        break;
+    case 18:
+        console.log("adult");
+        break;
+    default:
+        console.log("No answer");
+        break;
+}
 
 
 
