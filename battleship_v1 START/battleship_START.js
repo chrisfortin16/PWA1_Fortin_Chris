@@ -50,7 +50,7 @@ while (isSunk == false) {
 			alert("Hit");
 			hits = hits + 1;
 			if (hits == 3) {
-				isSunk = ture;
+				isSunk = true;
 				alert("Battleship Sunk!");
 			} else {
 				alert("Miss");
@@ -80,7 +80,8 @@ while (isSunk == false) {
 			
 //CREATE VAR AND ALERT FOR STATS (YOU TOOK ? GUESSES TO SINK THE BATTLESHIP)
 
-
+var stats = "You took "+guesses+" guesses to sink the battleship.";
+	alert(stats);
 
 			////////////// ON YOUR OWN ///////////////////
 
