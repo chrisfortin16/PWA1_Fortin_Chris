@@ -167,15 +167,6 @@ console.log("---------- Scope & Context ----------------");
 
     fullName();
 
-
-
-
-
-
-
-
-
-
     /*
     Definition:  Closure:
           1.  a snapshot of the functions outer environment at the time the closure is
@@ -213,7 +204,12 @@ console.log("---------- Scope & Context ----------------");
  //--------------------------------------------------------
     console.log("4. sentence char count");
 
-        //PUT FUNCTION HERE
+    var talk = "This is a string";
+
+    function charCount(talk){
+        return talk.length;
+    }
+    console.log(talk);
 
 
 
