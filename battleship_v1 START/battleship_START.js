@@ -11,9 +11,10 @@
 	
 	
 //CREATE VAR's for 3 LOCATIONS ON THE BOARD
-	var location1 = 1;
-	var location2 = 2;
-	var location3 = 3;
+	var randomLoc = Math.floor(Math.random() * 5);
+	var location1 = randomLoc;
+	var location2 = randomLoc;
+	var location3 = randomLoc;
 
 
 //CREATE VARIABLES FOR INITIAL GUESS, HITS, & GUESSES (TALLY SHOULD START AT 0)
