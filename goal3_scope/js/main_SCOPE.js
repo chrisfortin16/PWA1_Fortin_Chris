@@ -135,19 +135,35 @@ console.log("---------- Scope & Context ----------------");
 
 
 
-    var fName = "james";
+    var fName = "James";
 
     var nameFN = function(var1){
         var firstName = var1;
-        var lastName = "bond";
-        var fullName = firstName +" "+ lastName;
+        var lastName = "Bond";
+        var name = firstName +" "+ lastName;
 
-        console.log(fullName);
+        console.log("Inside Function: "+name);
+
+        //Closure Function
+        var closureFN = function(){
+
+            console.log(firstName +" "+ lastName);
+
+
+        };
+
+        return name;
+
     };
 
-nameFN(fName);
+    var fullName = nameFN(fName);
 
+    console.log("Outside Function: ", fullName);
 
+//console.log(firstName);
+//console.log(lastName);
+
+    fullName();
 
 
 
