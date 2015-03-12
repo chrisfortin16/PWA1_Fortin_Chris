@@ -204,7 +204,7 @@ console.log("---------- Scope & Context ----------------");
  //--------------------------------------------------------
     console.log("4. sentence char count");
 
-    var talk = "This is a string";
+    var talk = ["This","Is","A","String"];
 
     function charCount(talk){
         return talk.length;
