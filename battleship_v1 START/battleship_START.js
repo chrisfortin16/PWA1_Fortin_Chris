@@ -39,7 +39,7 @@ while (isSunk == false) {
 	//CREATE A CONDITIONAL STATEMENT TO VALIDATE THE USER'S GUESS
 	//IS THE GUESS BETWEEN 0 AND 6?
 
-	if (guess < 0 || guess > 0) {
+	if (guess < 0 || guess > 5) {
 		alert("Please enter a valid number");
 	} else {
 
