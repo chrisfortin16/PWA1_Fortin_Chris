@@ -223,8 +223,12 @@ console.log("---------- Scope & Context ----------------");
 *******************************************************************************/  
  //--------------------------------------------------------
     console.log("5. how many vowels in a word");
+        var oneWordString = "Hello!";
 
-        //PUT FUNCTION HERE
+        var vowelsInWord = function(oneWordString){
+            return oneWordString.charAt(2,5);
+        };
+        console.log(oneWordString);
 
 
 		////////////////OPTIONAL SECTION//////////////////
