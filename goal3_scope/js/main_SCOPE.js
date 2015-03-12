@@ -226,9 +226,9 @@ console.log("---------- Scope & Context ----------------");
         var oneWordString = "Hello!";
 
         var vowelsInWord = function(oneWordString){
-            return oneWordString.charAt(2,5);
+            return newString = oneWordString.charAt(2,5);
         };
-        console.log(oneWordString);
+        console.log(newString);
 
 
 		////////////////OPTIONAL SECTION//////////////////
