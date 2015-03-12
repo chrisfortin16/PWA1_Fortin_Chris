@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="" />
+    <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" afterPath="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" />
+    </list>
     <ignored path="PWA1_Fortin_Chris.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -34,34 +36,14 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main_SCOPE.js" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main_SCOPE.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1786" max-vertical-offset="3795">
-              <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.75104314" vertical-offset="135" max-vertical-offset="3975">
+              <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="battleship_START.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/battleship_v1 START/battleship_START.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.85535467" vertical-offset="255" max-vertical-offset="1425">
-              <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="battleship.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/battleship_v1 START/battleship.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
-              <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -91,9 +73,9 @@
         <option value="$PROJECT_DIR$/goal2_practice_DEMO_Fortin_Chris/js/Goal2_Practice_Demo.js" />
         <option value="$PROJECT_DIR$/goal2_practice LAB/js/Goal2_Practice_studentActicity.js" />
         <option value="$PROJECT_DIR$/goal3_scope/index.html" />
-        <option value="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" />
         <option value="$PROJECT_DIR$/battleship_v1 START/battleship.html" />
         <option value="$PROJECT_DIR$/battleship_v1 START/battleship_START.js" />
+        <option value="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" />
       </list>
     </option>
   </component>
@@ -479,19 +461,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1786" max-vertical-offset="3795">
-          <caret line="156" column="0" selection-start-line="156" selection-start-column="0" selection-end-line="156" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/battleship_v1 START/battleship.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.625" vertical-offset="0" max-vertical-offset="270">
+        <state vertical-scroll-proportion="0.19424461" vertical-offset="0" max-vertical-offset="695">
           <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding />
         </state>
@@ -502,6 +474,16 @@
         <state vertical-scroll-proportion="0.85535467" vertical-offset="255" max-vertical-offset="1425">
           <caret line="58" column="5" selection-start-line="58" selection-start-column="5" selection-end-line="58" selection-end-column="5" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.75104314" vertical-offset="135" max-vertical-offset="3975">
+          <caret line="45" column="9" selection-start-line="45" selection-start-column="9" selection-end-line="45" selection-end-column="9" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

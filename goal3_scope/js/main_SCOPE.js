@@ -1,6 +1,6 @@
 /*
 	PWA1 Goal 3
-	NAME:  
+	NAME: Chris Fortin
 	JavaScript Scope & Closure
 */
 
@@ -32,7 +32,19 @@ console.log('------ Recap from the previous lecture ----------');
     var students1 = ['Bob','Christine','Sally','Jim'];
 
 
+console.log(students1.length);
 
+    for(i = 0; i < 5; i++){
+        if(i==1) {
+            console.log(students1[0])
+        }else if (i==2) {
+            console.log(students1[1])
+        }else if (i==3) {
+            console.log(students1[2])
+        }else if (i==4) {
+            console.log(students1[3])
+        }
+    }
 
 
 
