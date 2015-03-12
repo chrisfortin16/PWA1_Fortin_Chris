@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="26361553-674c-40bf-b63f-d1de2239e2b9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" afterPath="$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js" />
     </list>
     <ignored path="PWA1_Fortin_Chris.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,8 +39,8 @@
       <file leaf-file-name="main_SCOPE.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6884562" vertical-offset="1185" max-vertical-offset="3360">
-              <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.6258693" vertical-offset="1725" max-vertical-offset="3705">
+              <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -461,8 +461,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal3_scope/js/main_SCOPE.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6884562" vertical-offset="1185" max-vertical-offset="3360">
-          <caret line="112" column="12" selection-start-line="112" selection-start-column="12" selection-end-line="112" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.6258693" vertical-offset="1725" max-vertical-offset="3705">
+          <caret line="145" column="6" selection-start-line="145" selection-start-column="6" selection-end-line="145" selection-end-column="6" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>

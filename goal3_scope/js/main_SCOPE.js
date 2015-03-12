@@ -135,6 +135,29 @@ console.log("---------- Scope & Context ----------------");
 
 
 
+    var fName = "james";
+
+    var nameFN = function(var1){
+        var firstName = var1;
+        var lastName = "bond";
+        var fullName = firstName +" "+ lastName;
+
+        console.log(fullName);
+    };
+
+nameFN(fName);
+
+
+
+
+
+
+
+
+
+
+
+
     /*
     Definition:  Closure:
           1.  a snapshot of the functions outer environment at the time the closure is
