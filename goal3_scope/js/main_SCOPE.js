@@ -141,25 +141,15 @@ console.log("---------- Scope & Context ----------------");
         var firstName = var1;
         var lastName = "Bond";
         var name = firstName +" "+ lastName;
-
         console.log("Inside Function: "+name);
-
         //Closure Function
         var closureFN = function(){
-
             console.log(firstName +" "+ lastName);
-
-
         };
-
-        return name;
-
+        return closureFN;
     };
-
     var fullName = nameFN(fName);
-
     console.log("Outside Function: ", fullName);
-
 //console.log(firstName);
 //console.log(lastName);
 
