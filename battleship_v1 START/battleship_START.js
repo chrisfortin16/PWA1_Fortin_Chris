@@ -50,7 +50,7 @@ while (isSunk == false) {
 			alert("Hit");
 			hits = hits + 1;
 			if (hits == 3) {
-				isSunk = true;
+				isSunk = ture;
 				alert("Battleship Sunk!");
 			} else {
 				alert("Miss");
