@@ -31,20 +31,17 @@
 //CREATE A WHILE LOOP THAT WILL RUN UNTIL THE SHIP IS SUNK
 
 while (isSunk == false) {
-	console.log("Your ship is not sinking");
-}
-
 
 	//PROMPT USER TO GUESS A NUMBER ON THE BOARD (0-6)
 
-	 guess = prompt("Please enter a number to shoot a rocket");
-	
+	guess = prompt("Please enter a number to shoot a rocket");
+
 	//CREATE A CONDITIONAL STATEMENT TO VALIDATE THE USER'S GUESS
 	//IS THE GUESS BETWEEN 0 AND 6?
 
-	if(guess < 0 || guess > 0){
+	if (guess < 0 || guess > 0) {
 		alert("Please enter a valid number");
-	}else {
+	} else {
 
 		guesses = guesses + 1;
 
@@ -60,6 +57,7 @@ while (isSunk == false) {
 			}
 		}
 	}
+}
 	//INSIDE OF THE ELSE STATEMENT, TALLY GUESSES FOR EACH ATTEMPT
 	
 	
