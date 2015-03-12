@@ -48,7 +48,7 @@ while (isSunk == false) {
 		if (guess == location1 || guess == location2 || guess == location3) {
 
 			alert("Hit");
-			hits = hits + 1;
+			hits++;
 			if (hits == 3) {
 				isSunk = ture;
 				alert("Battleship Sunk!");
