@@ -7,30 +7,35 @@
 */
 
 // application scope (self-executing function)
-(function(){
+(function() {
 
 
-/*	==================================================================
-	Objects
-	------------------------------------------------------------------
-		
-	- objects are collections of keys and values for storing data {KEY : Value} pairings, also 
-		known as associative pairing
- 
-	- arrays and objects are both used to store multiple values 
-		arrays vs objects:  
- 			1.  arrays store by numerical index
- 			2.  objects store by a key index
-	
-	- keys in objects are names (similar to variables), used to index a value inside the object
+	/*	==================================================================
+	 Objects
+	 ------------------------------------------------------------------
 
-	-similar to making an array, we declare the object’s properties inside the literal, separating by comma...
-*/
-console.log('------Objects ----------');
+	 - objects are collections of keys and values for storing data {KEY : Value} pairings, also
+	 known as associative pairing
+
+	 - arrays and objects are both used to store multiple values
+	 arrays vs objects:
+	 1.  arrays store by numerical index
+	 2.  objects store by a key index
+
+	 - keys in objects are names (similar to variables), used to index a value inside the object
+
+	 -similar to making an array, we declare the object’s properties inside the literal, separating by comma...
+	 */
+	console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
 
-
+	person = {
+		'name': "bond",
+		'age': 36,
+		'secret agent': ture
+	};
+console.log(person);
 
 /* accessing object properties
      - below are 3 ways you can access the property information in an object
