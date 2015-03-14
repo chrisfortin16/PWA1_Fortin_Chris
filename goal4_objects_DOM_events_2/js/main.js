@@ -30,12 +30,11 @@ console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
 
-
-
-
-
-
-
+person = {
+	'name': "bond",
+	'age': 35,
+	'secretAgent': true
+};
 
 /* accessing object properties
      - below are 3 ways you can access the property information in an object
@@ -100,7 +99,13 @@ console.log('------Objects - properties & methods ----------');
 
 //Method 1 "Basic"
 
+	var fsStudent = {}; // Initialize Variable
+	fsStudent.age = 22; // Set age property value
+	fsStudent.career = "Web Dev"; // Set career property
 
+	fsStudent.sayHello = function () { //Method that says hello
+		console.log("Hello There!");
+	};
 
 
 // above, we first initialize the object, then we created 2 properties 
