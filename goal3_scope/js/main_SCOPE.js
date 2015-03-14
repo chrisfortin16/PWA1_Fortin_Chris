@@ -226,9 +226,13 @@ console.log("---------- Scope & Context ----------------");
         var oneWordString = "Hello!";
 
         var vowelsInWord = function(oneWordString){
-            return newString = oneWordString.charAt(2,5);
+            var newString = oneWordString.charAt(1);
+            var newString1 = oneWordString.charAt(4);
+            var newString2 = newString +  "," + newString1;
+            return newString2;
         };
-        console.log(newString);
+        var test = vowelsInWord(oneWordString);
+        console.log("test", test);
 
 
 		////////////////OPTIONAL SECTION//////////////////
@@ -248,7 +252,15 @@ console.log("---------- Scope & Context ----------------");
      //--------------------------------------------------------
     console.log("6. find number and create an array of even or odd numbers");
 
-        //PUT FUNCTION HERE
+    var arrNum = ([3,6,7,2,8]);
+    var boolNum = (ture);
+
+        var findNum = function (arrNum, boolNum) {
+
+            if(boolNum == false){
+                var newArrNum(3,,7)
+            }
+        }
 
 
     
