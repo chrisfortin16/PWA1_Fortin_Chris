@@ -272,7 +272,7 @@ console.log('------------ getElementsByTagName -------------------');
 
 console.log('------------ querySelectorAll -------------------');
 
-	var nav = document.querySelectorAll("#nav");
+	var nav = document.querySelectorAll("#nav li");
 	console.log(nav);
 
 
@@ -288,7 +288,8 @@ console.log('------------ querySelectorAll -------------------');
     console.log('------------ querySelector -------------------');
 
 
-
+	var nav2 = document.querySelector('#nav');
+	console.log(nav2);
 
 
     /*
