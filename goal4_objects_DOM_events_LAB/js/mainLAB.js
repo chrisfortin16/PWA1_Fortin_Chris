@@ -37,13 +37,7 @@ var obj1 = {
 console.log(obj1.schoolName);
 console.log(obj1[0]);
 
-var newCnt = studentCount;
-console.log(newCnt);
 
-console.log(obj1[1]);
-
-console.log(obj1.students.gpa);
-console.log(obj1[3].students[2]);
 
 
 
