@@ -48,7 +48,7 @@ console.log('------Objects ----------');
 
 
 // setter
-person['age'] = '40';
+	person.age = '40';
 	person.name = "James Bond";
 	person.height = 5;
 
