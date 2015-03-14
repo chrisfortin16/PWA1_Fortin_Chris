@@ -24,12 +24,7 @@ console.log('------ STUDENT ACTIVITY 1 - ANSWERS BELOW ----------');
 
 // this is integrating multiple data types - object with an array of objects
 
-person = {
-    'name': "bond",
-    'age': 35,
-    'secretAgent': true
-};
-obj1 = {
+var obj1 = {
     'schoolName': "Full Sail",
     'address': "123 University Ave",
     'studentCount': "16000",
@@ -38,9 +33,19 @@ obj1 = {
         'gpa': 3.9,
         'classes': ['PWA1', 'PWA2']
      }
-
-
 };
+console.log(obj1.schoolName);
+console.log(obj1[0]);
+
+var newCnt = studentCount;
+console.log(newCnt);
+
+console.log(obj1[1]);
+
+console.log(obj1.students.gpa);
+console.log(obj1[3].students[2]);
+
+
 
 
 
