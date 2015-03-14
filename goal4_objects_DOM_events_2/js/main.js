@@ -29,7 +29,27 @@
 console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
+var thatGuy = {
+	name: 'Chris Fortin',
+	course: "PWA1",
+	address: {
+		num: 300,
+		street: 'University Blvd',
+		city: 'Orlando',
+		zip: '32707',
+		cornerOf: ['University', 'Semoran']
+	},
+	showMyAddress: function(){
 
+		var x = this.address.street + ',' + this.address.city;
+		return x;
+
+	}
+
+
+};
+
+	console.log(thatGuy.showMyAddress());
 
 
 /* accessing object properties
@@ -43,11 +63,17 @@ console.log('------Objects ----------');
 
 
 // setter
+person['age'] = '40';
+	person.name = "James Bond";
+	person.height = 5;
 
+	console.log(person);
 
 
 //nested objects
-
+person = {birthday: {month: 12, day: 2}, name: 'bond' };
+	console.log(perosn['birthday']['month']);
+	console.log(person.birthday.month, person.name);
 
 
 //---------------------------------------------
