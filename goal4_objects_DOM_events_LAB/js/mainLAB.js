@@ -28,11 +28,10 @@ var obj1 = {
     'schoolName': "Full Sail",
     'address': "123 University Ave",
     'studentCount': "16000",
-    'students': {
-        'name': "JamesBond",
-        'gpa': 3.9,
-        'classes': ['PWA1', 'PWA2']
-     }
+    'students': [
+        {'name': "JamesBond", 'gpa': 3.9, 'classes': ['PWA1', 'PWA2']},
+        {'name': "JamesBond", 'gpa': 2.0}
+    ]
 };
 console.log(obj1.schoolName);  // dot syntax
 console.log(obj1["schoolName"]); //index syntax
