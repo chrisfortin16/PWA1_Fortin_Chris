@@ -32,16 +32,14 @@
 
 	person = {
 		'name': "bond",
-		'age': 36,
-		'secretAgent': ture
+		'age': 36
 	};
 
 	//Same as
 
 	person = {
 		name: "bond",
-		age: 36,
-		secretAgent: ture
+		age: 36
 	};
 
 
