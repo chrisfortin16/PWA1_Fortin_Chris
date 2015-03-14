@@ -29,27 +29,12 @@
 console.log('------Objects ----------');
 
 //{KEY : Value} pairings,
-var thatGuy = {
-	name: 'Chris Fortin',
-	course: "PWA1",
-	address: {
-		num: 300,
-		street: 'University Blvd',
-		city: 'Orlando',
-		zip: '32707',
-		cornerOf: ['University', 'Semoran']
-	},
-	showMyAddress: function(){
-
-		var x = this.address.street + ',' + this.address.city;
-		return x;
-
-	}
 
 
-};
 
-	console.log(thatGuy.showMyAddress());
+
+
+
 
 
 /* accessing object properties
@@ -81,8 +66,27 @@ person = {birthday: {month: 12, day: 2}, name: 'bond' };
 // Object within an object
 
 console.log('------Object within an object, Arrays, Function ----------');
+	var thatGuy = {
+		name: 'Chris Fortin',
+		course: "PWA1",
+		address: {
+			num: 300,
+			street: 'University Blvd',
+			city: 'Orlando',
+			zip: '32707',
+			cornerOf: ['University', 'Semoran']
+		},
+		showMyAddress: function(){
+
+			var x = this.address.street + ',' + this.address.city;
+			return x;
+
+		}
 
 
+	};
+
+	console.log(thatGuy.showMyAddress());
 
 //properties & methods
 /*
