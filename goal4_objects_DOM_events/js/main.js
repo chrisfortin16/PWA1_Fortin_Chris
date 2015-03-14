@@ -55,8 +55,11 @@ var personAge = 'age';
 	console.log(person.name, person[age]);
 
 // setter
-person['age'] = '40';
+	person['age'] = '40';
 	person.name = "James Bond";
+	person.height = 5;
+
+	console.log(person);
 
 
 //nested objects
