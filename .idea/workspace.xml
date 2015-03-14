@@ -29,8 +29,8 @@
       <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events_2/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-44.444443" vertical-offset="0" max-vertical-offset="5610">
-              <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+            <state vertical-scroll-proportion="-6.111111" vertical-offset="705" max-vertical-offset="5610">
+              <caret line="58" column="42" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="42" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -41,8 +41,8 @@
       <file leaf-file-name="mainLAB.js" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events_LAB/js/mainLAB.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.81703913" vertical-offset="135" max-vertical-offset="1065">
-              <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.7122905" vertical-offset="75" max-vertical-offset="975">
+              <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -527,8 +527,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events_2/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-44.444443" vertical-offset="0" max-vertical-offset="5610">
-          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        <state vertical-scroll-proportion="-6.111111" vertical-offset="705" max-vertical-offset="5610">
+          <caret line="58" column="42" selection-start-line="58" selection-start-column="22" selection-end-line="58" selection-end-column="42" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -537,8 +537,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/goal4_objects_DOM_events_LAB/js/mainLAB.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.81703913" vertical-offset="135" max-vertical-offset="1065">
-          <caret line="48" column="0" selection-start-line="48" selection-start-column="0" selection-end-line="48" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.7122905" vertical-offset="75" max-vertical-offset="975">
+          <caret line="39" column="0" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
           <folding />
         </state>
       </provider>
