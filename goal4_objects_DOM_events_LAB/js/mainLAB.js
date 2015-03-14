@@ -34,9 +34,16 @@ var obj1 = {
         'classes': ['PWA1', 'PWA2']
      }
 };
-console.log(obj1.schoolName);
-console.log(obj1[0]);
+console.log(obj1.schoolName);  // dot syntax
+console.log(obj1["schoolName"]); //index syntax
 
+var newCnt = "studentCount";
+console.log(newCnt);
+
+console.log(obj1["address"]);
+
+console.log(obj1.students.gpa);
+console.log(["students"]["gpa"]);
 
 
 
@@ -57,3 +64,18 @@ console.log(obj1[0]);
 
 
 console.log('------ STUDENT ACTIVITY 2 - ANSWERS BELOW ----------');
+
+var gradeAvg = function(e) {
+
+    var count = 0;
+    var total = 0;
+
+    for(i = 0; i < e.students.length; i++){
+        count++;
+        total = total+ e.students[i]["gpa"]
+    };
+
+    return total/count;
+};
+
+console.log("this is our gpa", gradeAvg(obj1));
