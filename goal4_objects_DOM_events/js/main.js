@@ -33,9 +33,17 @@
 	person = {
 		'name': "bond",
 		'age': 36,
-		'secret agent': ture
+		'secretAgent': ture
 	};
-console.log(person);
+
+	//Same as
+
+	person = {
+		name: "bond",
+		age: 36,
+		secretAgent: ture
+	};
+
 
 /* accessing object properties
      - below are 3 ways you can access the property information in an object
@@ -45,10 +53,12 @@ console.log(person);
 
      - also keep in mind that since the keys can be strings, you could access the keys using string variables
  */
-
+var personAge = 'age';
+	console.log(person.name, person[age]);
 
 // setter
-
+person['age'] = '40';
+	person.name = "James Bond";
 
 
 //nested objects
