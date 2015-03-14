@@ -65,14 +65,14 @@ console.log(["students"]["gpa"]);
 
 console.log('------ STUDENT ACTIVITY 2 - ANSWERS BELOW ----------');
 
-var gradeAvg = function(e) {
+var gradeAvg = function(x) {
 
     var count = 0;
     var total = 0;
 
-    for(i = 0; i < e.students.length; i++){
+    for(i = 0; i < x.students.length; i++){
         count++;
-        total = total+ e.students[i]["gpa"]
+        total = total+ x.students[i]["gpa"]
     };
 
     return total/count;
