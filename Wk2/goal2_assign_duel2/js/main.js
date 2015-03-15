@@ -26,8 +26,8 @@
 
             var minDamage1 = playerOne[1] * .5;                                                                        //multiplying the damage player1
             var minDamage2 = playerTwo[1] * .5;                                                                        //multiplying the damage player2
-            var f1 = Math.floor(Math.random()*(player1[1]-minDamage1)+minDamage1);
-            var f2 = Math.floor(Math.random()*(player2[1]-minDamage2)+minDamage2);
+            var f1 = Math.floor(Math.random()*(playerOne[1]-minDamage1)+minDamage1);
+            var f2 = Math.floor(Math.random()*(playerTwo[1]-minDamage2)+minDamage2);
 
             //inflict damage
             playerOne[2]-=f1;                                                                                        // damage player one will do to player two
