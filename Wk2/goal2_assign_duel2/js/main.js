@@ -24,8 +24,8 @@
 
             //random formula is - Math.floor(Math.random() * (max - min) + min);
 
-            var minDamage1 = player1[1] * .5;                                                                        //multiplying the damage player1
-            var minDamage2 = player2[1] * .5;                                                                        //multiplying the damage player2
+            var minDamage1 = playerOne[1] * .5;                                                                        //multiplying the damage player1
+            var minDamage2 = playerTwo[1] * .5;                                                                        //multiplying the damage player2
             var f1 = Math.floor(Math.random()*(player1[1]-minDamage1)+minDamage1);
             var f2 = Math.floor(Math.random()*(player2[1]-minDamage2)+minDamage2);
 
@@ -57,7 +57,7 @@
 
         if (playerOne[2]<1 && playerTwo[2]<1){                                                                    // comparing the health of the players
             result = "You Both Die";                                                                                    // what will happen if both players die
-        } else if(playerOnep[2]<1){                                                                                   // if player one wins
+        } else if(playerOne[2]<1){                                                                                   // if player one wins
             result =playerTwo[0]+" WINS!!!";                                                                           // display this
         } else if(playerTwo[2]<1){                                                                                   // if player 2 wins
             result =playerOne[0]+" WINS!!!";                                                                            // display this
