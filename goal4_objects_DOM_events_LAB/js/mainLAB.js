@@ -44,11 +44,6 @@ console.log(obj1["address"]);
 console.log(obj1.students.gpa);
 console.log(["students"]["gpa"]);
 
-
-
-
-
-
 /* ----------------------------------------------------------------------------
  STUDENT ACTIVITY 2:
 
