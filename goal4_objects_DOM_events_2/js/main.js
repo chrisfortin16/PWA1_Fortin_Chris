@@ -312,8 +312,8 @@ console.log('------------ querySelectorAll -------------------');
         Will be used in ALL future assignments.
     */
     console.log('------------ TRAVERSAL -------------------');
-
-
+var apple = document.querySelectorAll('#nav li a')[2];
+	console.log(apple);
 
 
 /*
@@ -331,7 +331,17 @@ console.log('------------ querySelectorAll -------------------');
 
         attr = href, src, class
 */
+var navLinks = document.querySelectorAll('#nav li');
 
+	for(i=0; i<navLinks.length; i++){
+
+		var href = navLinks[i].firstChild.getAttribute('href');
+		console.log('Manipulation HREF: ', href);
+
+		//check all classes
+		var aClass = navLinks [i].firstChild.getAttribute('class');
+		console.log('Manipulation CLASS ', aClass);
+	}
 
 
 /*
@@ -350,6 +360,16 @@ console.log('------------ querySelectorAll -------------------');
 
 console.log('------------ Manipulating CSS Classes -------------------');
 
+	navLinks[2].firstChild.setAttribute('class', 'navitem active');
+	var changeClass = navLinks[1].firstChild.setAttribute('href', 'https://google.com');
+
+console.log('------------ Manipulating HTML Classes -------------------');
+	var navLinks = document.querySelectorAll('#nav a');
+	console.log(navLinks[2]);
+	console.log(navLinks[2].innerHTML); // example of a GETTER
+
+	navLinks[2].innerHTML = 'This Link Rocks';
+
 
 /*
 	==================================================================
@@ -362,7 +382,23 @@ console.log('------------ Manipulating CSS Classes -------------------');
 Sample Link: http://www.instructables.com/files/deriv/FJI/WGSW/FPIUQQ3K/FJIWGSWFPIUQQ3K.MEDIUM.jpg
 
 */
+var nav = document.querySelectorAll('#nav li a');
 
+	for(i=0; i<nav.length; i++){
+
+		console.log(nav[i]);
+
+		nav[i].onclick = function(e){
+
+			//what ever you want to have happen on the click
+			console.log(e);
+
+			return false;
+			e.preventDefault() // that is going prevent the default behavior
+
+		}
+
+	}
 
 
 
