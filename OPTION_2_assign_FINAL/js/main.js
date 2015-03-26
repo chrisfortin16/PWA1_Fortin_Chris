@@ -24,7 +24,7 @@ var newPerson = {
     }
 };
 
-var thisArray = [person,newPerson,addData()];
+var thisArray = [person,newPerson];
 
 console.log(person.name);
 console.log(person.gpa);
@@ -41,10 +41,11 @@ console.log(newPerson.address.state);
 
 var addData = function(){
 
-    document.innerHTML(person);
-    document.innerHTML(newPerson);
+    document.getElementById("name").innerHTML = person.name;
+    document.getElementById("name").innerHTML = person.address;
+    document.getElementById("name").innerHTML = person.gpa;
+
 
 };
 
 button.onclick = addData();
-
